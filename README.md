@@ -11,7 +11,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## dependencies and development environment ( current tech stack )
  1. node (latest)
  2. visual studio code 
- 3. visual studio code plugins - angular snippits, typescript import, TODO highlight
+ 3. visual studio code plugins - angular snippets, typescript import, TODO highlight
 
 ## Running the project
 
