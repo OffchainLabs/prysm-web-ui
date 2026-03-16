@@ -72,8 +72,8 @@ Then, do
 
 ```
 ./scripts/update-ts-pbs.sh \
-    /path/to/github.com/prysmaticlabs/prysm/proto \
-    /path/to/github.com/prysmaticlabs/prysm/proto/validator/accounts/v2/web_api.proto
+    /path/to/github.com/OffchainLabs/prysm/tree/develop/proto \
+    /path/to/github.com/OffchainLabs/prysm/tree/develop/proto/validator/accounts/v2/web_api.proto
 ```
 
 You should see protos being regenerated under `./src/app/proto`, which will be used as the types in our frontend application.
@@ -82,5 +82,5 @@ You should see protos being regenerated under `./src/app/proto`, which will be u
 
 1. Once all commits are added to master, update the `CHANGELOG.md` file for all the associated changes.
 2. Create a version tag against master and push the new version tag. This will trigger the git action workflow.
-3. Follow README.md instructions on the [prysm repo](https://github.com/prysmaticlabs/prysm/tree/develop/validator/web) to update the validator client with the new UI.
+3. Follow README.md instructions on the [prysm repo](https://github.com/OffchainLabs/prysm/tree/develop/validator/web) to update the validator client with the new UI.
 
