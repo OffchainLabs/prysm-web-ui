@@ -18,7 +18,7 @@ export class LatestGistFeatureComponent implements OnInit {
   ngOnInit(): void {
     this.loading = true;
     this.gitResponse$ = this.httpClient.get<GitResponse>(
-      'https://api.github.com/repos/prysmaticlabs/prysm/releases'
+      'https://api.github.com/repos/OffchainLabs/prysm/releases'
     ).pipe(
       map((val: any) => {
         return val[0];
