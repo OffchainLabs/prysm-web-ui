@@ -74,7 +74,7 @@
     "karma-jasmine-html-reporter": "^1.7.0",
     "ng-mocks": "^13.5.2",
     "ng-tailwindcss": "^2.3.4",
-    "postcss": "^8.3.9",
+    "postcss": "^8.5.10",
     "tailwindcss": "^2.2.19",
     "ts-node": "~8.3.0",
     "ts-proto": "^1.156.2",
